@@ -132,20 +132,21 @@ function showSuggestions() {
      document.getElementById("result").innerHTML = "";
      return;
    }
- 
-   let baseStat = enemyData.basespeed + 52;
-   baseStat *= rankMultiplier(enemyRank);
+
+   let Level = 50 ;
+   let baseStat = enemyData.basespeed ;
+   baseStat *= 2 ;
  
    let enemyCondition = (enemyWeatherActive ? 2 : 1) * (enemyParalysisActive ? 0.5 : 1);
-   let enemyEffective = baseStat * enemyCondition;
+   let enemyEffective = enemyCondition * rankMultiplier(enemyRank);
  
    let enemyResults = {
-     "最速スカーフ": Math.floor(enemyEffective * 1.5 * 1.1),
-     "準速スカーフ": Math.floor(enemyEffective * 1.5),
-     "最速": Math.floor(enemyEffective * 1.1),
-     "準速": Math.floor(enemyEffective),
-     "無振り": Math.floor(enemyEffective * 0.9),
-     "最遅": Math.floor(enemyEffective * 0.5)
+     "最速スカーフ": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.1 * 1.5 * enemyEffective),
+     "準速スカーフ": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.5 * enemyEffective),
+     "最速": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.1 * enemyEffective),
+     "準速": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * enemyEffective),
+     "無振り": Math.floor(((baseStat + 31 + 0) * Level / 100 + 5) * enemyEffective),
+     "最遅": Math.floor(((baseStat + 0 + 0) * Level / 100 + 5) * enemyEffective)
    };
  
    let selfInput = document.getElementById("selfSpeedInput").value;
