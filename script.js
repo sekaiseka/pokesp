@@ -18,13 +18,13 @@ const hiraToKana = str => str.replace(/[\u3041-\u3096]/g,
 );
 
 // 検索候補表示（相手側のポケモン名入力欄）
-// 入力がひらがなでも候補が表示される
 function showSuggestions() {
   let input = document.getElementById("enemyPokemonInput").value.trim();
   let suggestionBox = document.getElementById("enemySuggestionBox");
   suggestionBox.innerHTML = "";
   if (!input) { calculateSpeed(); return; }
   let katakanaInput = hiraToKana(input);
+  // JSONは配列なので、部分一致で検索
   let filtered = pokemonData.filter(p => p.name.includes(katakanaInput));
   filtered.slice(0, 3).forEach(p => {
     let div = document.createElement("div");
@@ -58,7 +58,7 @@ function adjustRank(target, change) {
   calculateSpeed();
 }
 
-// 各ボタンのON/OFF切替（activeクラスで色付け）  
+// ボタンのON/OFF切替（active クラスで色付け）  
 function toggleEnemyWeather(button) {
   enemyWeatherActive = !enemyWeatherActive;
   button.classList.toggle("active", enemyWeatherActive);
@@ -85,9 +85,9 @@ function toggleSelfParalysis(button) {
   calculateSpeed();
 }
 
-// ラッパー関数
+// 各ボタンの呼び出し用ラッパー関数
 function toggleButton(button, type) {
-  switch (type) {
+  switch(type) {
     case 'enemyWeather': toggleEnemyWeather(button); break;
     case 'enemyParalysis': toggleEnemyParalysis(button); break;
     case 'selfWeather': toggleSelfWeather(button); break;
@@ -98,20 +98,6 @@ function toggleButton(button, type) {
 
 // 計算処理
 function calculateSpeed() {
-  // --- 敵側 ---\n  相手のポケモン名から該当データを取得（ひらがな対応）\n
+  // --- 敵側 ---\n  相手のポケモン名（ひらがな対応）から該当データを取得\n
   let enemyName = document.getElementById("enemyPokemonInput").value.trim();
-  if (!enemyName) { document.getElementById("result").innerHTML = ""; return; }
-  let enemyKey = hiraToKana(enemyName);
-  let enemyData = pokemonData.find(p => p.name.includes(enemyKey));
-  if (!enemyData) { document.getElementById("result").innerHTML = ""; return; }
-  
-  // 敵側基本実数値 = (basespeed + 52)\n
-  let baseStat = enemyData.basespeed + 52;
-  // ランク補正\n
-  baseStat *= rankMultiplier(enemyRank);
-  // 状態補正： 天候＝×2, まひ＝×0.5\n
-  let enemyCondition = (enemyWeatherActive ? 2 : 1) * (enemyParalysisActive ? 0.5 : 1);
-  let enemyEffective = baseStat * enemyCondition;
-  
-  // 6パターンの敵側素早さ\n\n  - 最速スカーフ: ×1.5×1.1\n  - 準速スカーフ: ×1.5\n  - 最速: ×1.1\n  - 準速: ×1.0\n  - 無振り: ×0.9\n  - 最遅: ×0.5\n
-  let enemyResults = {\n    \"最速スカーフ\": Math.floor(enemyEffective * 1.5 * 1.1),\n    \"準速スカーフ\": Math.floor(enemyEffective * 1.5),\n    \"最速\": Math.floor(enemyEffective * 1.1),\n    \"準速\": Math.floor(enemyEffective),\n    \"無振り\": Math.floor(enemyEffective * 0.9),\n    \"最遅\": Math.floor(enemyEffective * 0.5)\n  };\n  \n  // --- 自分側 ---\n  // 自分の実数値が入力されていれば、入力値に対して各補正を乗じる\n  let selfInput = document.getElementById("selfSpeedInput").value;\n  let selfComputed = null;\n  if (selfInput !== \"\") {\n    selfComputed = parseFloat(selfInput);\n    selfComputed *= rankMultiplier(selfRank);\n    selfComputed *= (selfWeatherActive ? 2 : 1);\n    selfComputed *= (scarfActive ? 1.5 : 1);\n    selfComputed *= (selfParalysisActive ? 0.5 : 1);\n    selfComputed = Math.floor(selfComputed);\n  }\n  \n  // --- 結果表示 ---\n  let resultHTML = \"\";\n  for (let key in enemyResults) {\n    let enemyVal = enemyResults[key];\n    let bgColor = \"transparent\";\n    if (selfComputed !== null) {\n      if (selfComputed > enemyVal) bgColor = \"rgba(255, 0, 0, 0.3)\";      // 自分が速い\n      else if (selfComputed === enemyVal) bgColor = \"rgba(255, 255, 0, 0.3)\"; // 同速\n      else bgColor = \"rgba(0, 0, 255, 0.3)\";                                // 自分が遅い\n    }\n    resultHTML += `<div class='result-row' style='background:${bgColor};'>` +\n                  `<span>${key}</span><span>${enemyVal}</span></div>`;\n  }\n  if (selfComputed !== null) {\n    resultHTML += `<div class='result-row self-result'>自分の素早さ: ${selfComputed}</div>`;\n  }\n  document.getElementById(\"result\").innerHTML = resultHTML;\n}\n</script>\n</body>\n</html>\n"}
+  if (!enemyName) {\n    document.getElementById("result").innerHTML = "";\n    return;\n  }\n  let enemyKey = hiraToKana(enemyName);\n  let enemyData = pokemonData.find(p => p.name.includes(enemyKey));\n  if (!enemyData) { document.getElementById(\"result\").innerHTML = \"\"; return; }\n  \n  // 敵側基本実数値 = basespeed + 52\n  let baseStat = enemyData.basespeed + 52;\n  // ランク補正\n  baseStat *= rankMultiplier(enemyRank);\n  // 状態補正： 天候＝×2、まひ＝×0.5\n  let enemyCondition = (enemyWeatherActive ? 2 : 1) * (enemyParalysisActive ? 0.5 : 1);\n  let enemyEffective = baseStat * enemyCondition;\n  \n  // 6パターンの敵側素早さ\n  let enemyResults = {\n    \"最速スカーフ\": Math.floor(enemyEffective * 1.5 * 1.1),\n    \"準速スカーフ\": Math.floor(enemyEffective * 1.5),\n    \"最速\": Math.floor(enemyEffective * 1.1),\n    \"準速\": Math.floor(enemyEffective),\n    \"無振り\": Math.floor(enemyEffective * 0.9),\n    \"最遅\": Math.floor(enemyEffective * 0.5)\n  };\n\n  // --- 自分側 ---\n  // ユーザーが入力した実数値を最終ステータスとみなす\n  let selfInput = document.getElementById("selfSpeedInput").value;\n  let selfComputed = null;\n  if (selfInput !== \"\") {\n    selfComputed = parseFloat(selfInput);\n    selfComputed *= rankMultiplier(selfRank);\n    selfComputed *= (selfWeatherActive ? 2 : 1);\n    selfComputed *= (scarfActive ? 1.5 : 1);\n    selfComputed *= (selfParalysisActive ? 0.5 : 1);\n    selfComputed = Math.floor(selfComputed);\n  }\n\n  // --- 結果表示 ---\n  let resultHTML = \"\";\n  for (let key in enemyResults) {\n    let enemyVal = enemyResults[key];\n    let bgColor = \"transparent\";\n    if (selfComputed !== null) {\n      if (selfComputed > enemyVal) bgColor = \"rgba(255, 0, 0, 0.3)\";      // 自分が速い → 薄い赤\n      else if (selfComputed === enemyVal) bgColor = \"rgba(255, 255, 0, 0.3)\"; // 同速 → 薄い黄\n      else bgColor = \"rgba(0, 0, 255, 0.3)\";                                // 自分が遅い → 薄い青\n    }\n    resultHTML += `<div class='result-row' style='background:${bgColor};'>` +\n                  `<span>${key}</span><span>${enemyVal}</span></div>`;\n  }\n  if (selfComputed !== null) {\n    resultHTML += `<div class='result-row self-result'>自分の素早さ: ${selfComputed}</div>`;\n  }\n  document.getElementById(\"result\").innerHTML = resultHTML;\n}\n\n// ※ HTML側の各ボタンは、onclickで toggleButton(this, type) または個別関数を呼び出すように設定してください。\n"}
