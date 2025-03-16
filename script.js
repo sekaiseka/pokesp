@@ -2,7 +2,7 @@
 let pokemonData = [];
 
 // GitHub Pages 用にJSONのURLを指定（USERNAME, REPOSITORY を適宜変更）
-const jsonURL = "https://USERNAME.github.io/REPOSITORY/pokemon_data.json";
+const jsonURL = "https://sekaiseka.github.io/pokesp/pokemon_data.json";
 
 // JSONファイルの読み込み
 fetch(jsonURL)
