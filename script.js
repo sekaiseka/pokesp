@@ -45,45 +45,46 @@
  }
  
  
- // ひらがな→カタカナ変換（簡易版）
- const hiraToKana = str => str.replace(/[\u3041-\u3096]/g,
-   match => String.fromCharCode(match.charCodeAt(0) + 96)
- );
- 
-
- // **ポケモン名を正規化**
-function normalizeName(name) {
-  return name
-    .replace(/\n/g, "")            // 改行を削除
-    .replace(/\(/g, "（")          // 半角カッコ → 全角カッコ
-    .replace(/\)/g, "）")          // 半角カッコ → 全角カッコ
-    .replace(/[（）]/g, "")       // 全角カッコを削除
-    .trim();                       // 前後の空白削除
+// カタカナをひらがなに変換する関数
+function toHiragana(str) {
+  return str.replace(/[\u30A1-\u30F6]/g, match =>
+    String.fromCharCode(match.charCodeAt(0) - 96)
+  );
 }
- // **検索候補表示**
- function showSuggestions() {
-   let input = document.getElementById("enemyPokemonInput").value.trim();
-   let suggestionBox = document.getElementById("enemySuggestionBox");
-   suggestionBox.innerHTML = "";
-   if (!input) { calculateSpeed(); return; }
- 
-   let normalizedInput = normalizeName(hiraToKana(input));
-   let filtered = pokemonData.filter(p => normalizeName(p.name).includes(normalizedInput));
- 
-   // **すべての一致候補を表示**
-   filtered.forEach(p => {
-     let div = document.createElement("div");
-     div.textContent = p.name;
-     div.onclick = function () {
-       document.getElementById("enemyPokemonInput").value = p.name;
-       suggestionBox.innerHTML = "";
-       calculateSpeed();
-     };
-     suggestionBox.appendChild(div);
-   });
- 
-   calculateSpeed();
- }
+
+// ポケモン名の正規化：カタカナ・ひらがなを統一し、改行と括弧の中身を削除
+function normalizeName(name) {
+  let hira = toHiragana(name);
+  return hira.replace(/\n/g, "").replace(/\(.*?\)/g, "").trim();
+}
+
+// 検索候補表示（修正版）
+function showSuggestions() {
+  let input = document.getElementById("enemyPokemonInput").value.trim();
+  let suggestionBox = document.getElementById("enemySuggestionBox");
+  suggestionBox.innerHTML = "";
+  if (!input) { calculateSpeed(); return; }
+  
+  let normalizedInput = normalizeName(input);
+  let filtered = pokemonData.filter(p => normalizeName(p.name).includes(normalizedInput));
+  
+  // すべての候補を表示
+  filtered.forEach(p => {
+    let div = document.createElement("div");
+    div.textContent = p.name;
+    div.onclick = function() {
+      document.getElementById("enemyPokemonInput").value = p.name;
+      suggestionBox.innerHTML = "";
+      calculateSpeed();
+    };
+    suggestionBox.appendChild(div);
+  });
+  calculateSpeed();
+}
+
+// 計算処理等は以前のコードと同様
+// …（以降は先のコード例と同じ）
+
  
  // **ランク補正乗数（-6～+6）**
  function rankMultiplier(rank) {
