@@ -1,0 +1,3306 @@
+[
+  {
+    "name": "フシギダネ",
+    "basespeed": 45
+  },
+  {
+    "name": "フシギソウ",
+    "basespeed": 60
+  },
+  {
+    "name": "フシギバナ",
+    "basespeed": 80
+  },
+  {
+    "name": "ヒトカゲ",
+    "basespeed": 65
+  },
+  {
+    "name": "リザード",
+    "basespeed": 80
+  },
+  {
+    "name": "リザードン",
+    "basespeed": 100
+  },
+  {
+    "name": "ゼニガメ",
+    "basespeed": 43
+  },
+  {
+    "name": "カメール",
+    "basespeed": 58
+  },
+  {
+    "name": "カメックス",
+    "basespeed": 78
+  },
+  {
+    "name": "アーボ",
+    "basespeed": 55
+  },
+  {
+    "name": "アーボック",
+    "basespeed": 80
+  },
+  {
+    "name": "ピカチュウ",
+    "basespeed": 90
+  },
+  {
+    "name": "ライチュウ",
+    "basespeed": 110
+  },
+  {
+    "name": "ライチュウ\n(アローラのすがた)",
+    "basespeed": 110
+  },
+  {
+    "name": "サンド",
+    "basespeed": 40
+  },
+  {
+    "name": "サンド\n(アローラのすがた)",
+    "basespeed": 40
+  },
+  {
+    "name": "サンドパン",
+    "basespeed": 65
+  },
+  {
+    "name": "サンドパン\n(アローラのすがた)",
+    "basespeed": 65
+  },
+  {
+    "name": "ピッピ",
+    "basespeed": 35
+  },
+  {
+    "name": "ピクシー",
+    "basespeed": 60
+  },
+  {
+    "name": "ロコン",
+    "basespeed": 65
+  },
+  {
+    "name": "ロコン\n(アローラのすがた)",
+    "basespeed": 65
+  },
+  {
+    "name": "キュウコン",
+    "basespeed": 100
+  },
+  {
+    "name": "キュウコン\n(アローラのすがた)",
+    "basespeed": 109
+  },
+  {
+    "name": "プリン",
+    "basespeed": 20
+  },
+  {
+    "name": "プクリン",
+    "basespeed": 45
+  },
+  {
+    "name": "ナゾノクサ",
+    "basespeed": 30
+  },
+  {
+    "name": "クサイハナ",
+    "basespeed": 40
+  },
+  {
+    "name": "ラフレシア",
+    "basespeed": 50
+  },
+  {
+    "name": "コンパン",
+    "basespeed": 45
+  },
+  {
+    "name": "モルフォン",
+    "basespeed": 90
+  },
+  {
+    "name": "ディグダ",
+    "basespeed": 95
+  },
+  {
+    "name": "ディグダ\n(アローラのすがた)",
+    "basespeed": 90
+  },
+  {
+    "name": "ダグトリオ",
+    "basespeed": 120
+  },
+  {
+    "name": "ダグトリオ\n(アローラのすがた)",
+    "basespeed": 110
+  },
+  {
+    "name": "ニャース",
+    "basespeed": 90
+  },
+  {
+    "name": "ニャース\n(アローラのすがた)",
+    "basespeed": 90
+  },
+  {
+    "name": "ニャース\n(ガラルのすがた)",
+    "basespeed": 40
+  },
+  {
+    "name": "ペルシアン",
+    "basespeed": 115
+  },
+  {
+    "name": "ペルシアン\n(アローラのすがた)",
+    "basespeed": 115
+  },
+  {
+    "name": "コダック",
+    "basespeed": 55
+  },
+  {
+    "name": "ゴルダック",
+    "basespeed": 85
+  },
+  {
+    "name": "マンキー",
+    "basespeed": 70
+  },
+  {
+    "name": "オコリザル",
+    "basespeed": 95
+  },
+  {
+    "name": "ガーディ",
+    "basespeed": 60
+  },
+  {
+    "name": "ガーディ\n(ヒスイのすがた)",
+    "basespeed": 55
+  },
+  {
+    "name": "ウインディ",
+    "basespeed": 95
+  },
+  {
+    "name": "ウインディ\n(ヒスイのすがた)",
+    "basespeed": 90
+  },
+  {
+    "name": "ニョロモ",
+    "basespeed": 90
+  },
+  {
+    "name": "ニョロゾ",
+    "basespeed": 90
+  },
+  {
+    "name": "ニョロボン",
+    "basespeed": 70
+  },
+  {
+    "name": "マダツボミ",
+    "basespeed": 40
+  },
+  {
+    "name": "ウツドン",
+    "basespeed": 55
+  },
+  {
+    "name": "ウツボット",
+    "basespeed": 70
+  },
+  {
+    "name": "メノクラゲ",
+    "basespeed": 70
+  },
+  {
+    "name": "ドククラゲ",
+    "basespeed": 100
+  },
+  {
+    "name": "イシツブテ",
+    "basespeed": 20
+  },
+  {
+    "name": "イシツブテ\n(アローラのすがた)",
+    "basespeed": 20
+  },
+  {
+    "name": "ゴローン",
+    "basespeed": 35
+  },
+  {
+    "name": "ゴローン\n(アローラのすがた)",
+    "basespeed": 35
+  },
+  {
+    "name": "ゴローニャ",
+    "basespeed": 45
+  },
+  {
+    "name": "ゴローニャ\n(アローラのすがた)",
+    "basespeed": 45
+  },
+  {
+    "name": "ヤドン",
+    "basespeed": 15
+  },
+  {
+    "name": "ヤドン\n(ガラルのすがた)",
+    "basespeed": 15
+  },
+  {
+    "name": "ヤドラン",
+    "basespeed": 30
+  },
+  {
+    "name": "ヤドラン\n(ガラルのすがた)",
+    "basespeed": 30
+  },
+  {
+    "name": "コイル",
+    "basespeed": 45
+  },
+  {
+    "name": "レアコイル",
+    "basespeed": 70
+  },
+  {
+    "name": "ドードー",
+    "basespeed": 75
+  },
+  {
+    "name": "ドードリオ",
+    "basespeed": 110
+  },
+  {
+    "name": "パウワウ",
+    "basespeed": 45
+  },
+  {
+    "name": "ジュゴン",
+    "basespeed": 70
+  },
+  {
+    "name": "ベトベター",
+    "basespeed": 25
+  },
+  {
+    "name": "ベトベター\n(アローラのすがた)",
+    "basespeed": 25
+  },
+  {
+    "name": "ベトベトン",
+    "basespeed": 50
+  },
+  {
+    "name": "ベトベトン\n(アローラのすがた)",
+    "basespeed": 50
+  },
+  {
+    "name": "シェルダー",
+    "basespeed": 40
+  },
+  {
+    "name": "パルシェン",
+    "basespeed": 70
+  },
+  {
+    "name": "ゴース",
+    "basespeed": 80
+  },
+  {
+    "name": "ゴースト",
+    "basespeed": 95
+  },
+  {
+    "name": "ゲンガー",
+    "basespeed": 110
+  },
+  {
+    "name": "スリープ",
+    "basespeed": 42
+  },
+  {
+    "name": "スリーパー",
+    "basespeed": 67
+  },
+  {
+    "name": "ビリリダマ",
+    "basespeed": 100
+  },
+  {
+    "name": "ビリリダマ\n(ヒスイのすがた)",
+    "basespeed": 100
+  },
+  {
+    "name": "マルマイン",
+    "basespeed": 150
+  },
+  {
+    "name": "マルマイン\n(ヒスイのすがた)",
+    "basespeed": 150
+  },
+  {
+    "name": "タマタマ",
+    "basespeed": 40
+  },
+  {
+    "name": "ナッシー",
+    "basespeed": 55
+  },
+  {
+    "name": "ナッシー\n(アローラのすがた)",
+    "basespeed": 45
+  },
+  {
+    "name": "サワムラー",
+    "basespeed": 87
+  },
+  {
+    "name": "エビワラー",
+    "basespeed": 76
+  },
+  {
+    "name": "ドガース",
+    "basespeed": 35
+  },
+  {
+    "name": "マタドガス",
+    "basespeed": 60
+  },
+  {
+    "name": "マタドガス\n(ガラルのすがた)",
+    "basespeed": 60
+  },
+  {
+    "name": "サイホーン",
+    "basespeed": 25
+  },
+  {
+    "name": "サイドン",
+    "basespeed": 40
+  },
+  {
+    "name": "ラッキー",
+    "basespeed": 50
+  },
+  {
+    "name": "タッツー",
+    "basespeed": 60
+  },
+  {
+    "name": "シードラ",
+    "basespeed": 85
+  },
+  {
+    "name": "ストライク",
+    "basespeed": 105
+  },
+  {
+    "name": "エレブー",
+    "basespeed": 105
+  },
+  {
+    "name": "ブーバー",
+    "basespeed": 93
+  },
+  {
+    "name": "ケンタロス",
+    "basespeed": 110
+  },
+  {
+    "name": "ケンタロス\n(パルデアのすがた・コンバット種)",
+    "basespeed": 100
+  },
+  {
+    "name": "ケンタロス\n(パルデアのすがた・ブレイズ種)",
+    "basespeed": 100
+  },
+  {
+    "name": "ケンタロス\n(パルデアのすがた・ウォーター種)",
+    "basespeed": 100
+  },
+  {
+    "name": "コイキング",
+    "basespeed": 80
+  },
+  {
+    "name": "ギャラドス",
+    "basespeed": 81
+  },
+  {
+    "name": "ラプラス",
+    "basespeed": 60
+  },
+  {
+    "name": "メタモン",
+    "basespeed": 48
+  },
+  {
+    "name": "イーブイ",
+    "basespeed": 55
+  },
+  {
+    "name": "シャワーズ",
+    "basespeed": 65
+  },
+  {
+    "name": "サンダース",
+    "basespeed": 130
+  },
+  {
+    "name": "ブースター",
+    "basespeed": 65
+  },
+  {
+    "name": "ポリゴン",
+    "basespeed": 40
+  },
+  {
+    "name": "カビゴン",
+    "basespeed": 30
+  },
+  {
+    "name": "フリーザー",
+    "basespeed": 85
+  },
+  {
+    "name": "フリーザー\n(ガラルのすがた)",
+    "basespeed": 95
+  },
+  {
+    "name": "サンダー",
+    "basespeed": 100
+  },
+  {
+    "name": "サンダー\n(ガラルのすがた)",
+    "basespeed": 100
+  },
+  {
+    "name": "ファイヤー",
+    "basespeed": 90
+  },
+  {
+    "name": "ファイヤー\n(ガラルのすがた)",
+    "basespeed": 90
+  },
+  {
+    "name": "ミニリュウ",
+    "basespeed": 50
+  },
+  {
+    "name": "ハクリュー",
+    "basespeed": 70
+  },
+  {
+    "name": "カイリュー",
+    "basespeed": 80
+  },
+  {
+    "name": "ミュウツー",
+    "basespeed": 130
+  },
+  {
+    "name": "ミュウ",
+    "basespeed": 100
+  },
+  {
+    "name": "チコリータ",
+    "basespeed": 45
+  },
+  {
+    "name": "ベイリーフ",
+    "basespeed": 60
+  },
+  {
+    "name": "メガニウム",
+    "basespeed": 80
+  },
+  {
+    "name": "ヒノアラシ",
+    "basespeed": 65
+  },
+  {
+    "name": "マグマラシ",
+    "basespeed": 80
+  },
+  {
+    "name": "バクフーン",
+    "basespeed": 100
+  },
+  {
+    "name": "バクフーン\n(ヒスイのすがた)",
+    "basespeed": 95
+  },
+  {
+    "name": "ワニノコ",
+    "basespeed": 43
+  },
+  {
+    "name": "アリゲイツ",
+    "basespeed": 58
+  },
+  {
+    "name": "オーダイル",
+    "basespeed": 78
+  },
+  {
+    "name": "オタチ",
+    "basespeed": 20
+  },
+  {
+    "name": "オオタチ",
+    "basespeed": 90
+  },
+  {
+    "name": "ホーホー",
+    "basespeed": 50
+  },
+  {
+    "name": "ヨルノズク",
+    "basespeed": 70
+  },
+  {
+    "name": "イトマル",
+    "basespeed": 30
+  },
+  {
+    "name": "アリアドス",
+    "basespeed": 40
+  },
+  {
+    "name": "チョンチー",
+    "basespeed": 67
+  },
+  {
+    "name": "ランターン",
+    "basespeed": 67
+  },
+  {
+    "name": "ピチュー",
+    "basespeed": 60
+  },
+  {
+    "name": "ピィ",
+    "basespeed": 15
+  },
+  {
+    "name": "ププリン",
+    "basespeed": 15
+  },
+  {
+    "name": "メリープ",
+    "basespeed": 35
+  },
+  {
+    "name": "モココ",
+    "basespeed": 45
+  },
+  {
+    "name": "デンリュウ",
+    "basespeed": 55
+  },
+  {
+    "name": "マリル",
+    "basespeed": 40
+  },
+  {
+    "name": "マリルリ",
+    "basespeed": 50
+  },
+  {
+    "name": "ウソッキー",
+    "basespeed": 30
+  },
+  {
+    "name": "ニョロトノ",
+    "basespeed": 70
+  },
+  {
+    "name": "ハネッコ",
+    "basespeed": 50
+  },
+  {
+    "name": "ポポッコ",
+    "basespeed": 80
+  },
+  {
+    "name": "ワタッコ",
+    "basespeed": 110
+  },
+  {
+    "name": "エイパム",
+    "basespeed": 85
+  },
+  {
+    "name": "ヒマナッツ",
+    "basespeed": 30
+  },
+  {
+    "name": "キマワリ",
+    "basespeed": 30
+  },
+  {
+    "name": "ヤンヤンマ",
+    "basespeed": 95
+  },
+  {
+    "name": "ウパー",
+    "basespeed": 15
+  },
+  {
+    "name": "ウパー\n(パルデアのすがた)",
+    "basespeed": 15
+  },
+  {
+    "name": "ヌオー",
+    "basespeed": 35
+  },
+  {
+    "name": "エーフィ",
+    "basespeed": 110
+  },
+  {
+    "name": "ブラッキー",
+    "basespeed": 65
+  },
+  {
+    "name": "ヤミカラス",
+    "basespeed": 91
+  },
+  {
+    "name": "ヤドキング",
+    "basespeed": 30
+  },
+  {
+    "name": "ヤドキング\n(ガラルのすがた)",
+    "basespeed": 30
+  },
+  {
+    "name": "ムウマ",
+    "basespeed": 85
+  },
+  {
+    "name": "キリンリキ",
+    "basespeed": 85
+  },
+  {
+    "name": "クヌギダマ",
+    "basespeed": 15
+  },
+  {
+    "name": "フォレトス",
+    "basespeed": 40
+  },
+  {
+    "name": "ノコッチ",
+    "basespeed": 45
+  },
+  {
+    "name": "グライガー",
+    "basespeed": 85
+  },
+  {
+    "name": "ブルー",
+    "basespeed": 30
+  },
+  {
+    "name": "グランブル",
+    "basespeed": 45
+  },
+  {
+    "name": "ハリーセン",
+    "basespeed": 85
+  },
+  {
+    "name": "ハリーセン\n(ヒスイのすがた)",
+    "basespeed": 85
+  },
+  {
+    "name": "ハッサム",
+    "basespeed": 65
+  },
+  {
+    "name": "ヘラクロス",
+    "basespeed": 85
+  },
+  {
+    "name": "ニューラ",
+    "basespeed": 115
+  },
+  {
+    "name": "ニューラ\n(ヒスイのすがた)",
+    "basespeed": 115
+  },
+  {
+    "name": "ヒメグマ",
+    "basespeed": 40
+  },
+  {
+    "name": "リングマ",
+    "basespeed": 55
+  },
+  {
+    "name": "マグマッグ",
+    "basespeed": 20
+  },
+  {
+    "name": "マグカルゴ",
+    "basespeed": 30
+  },
+  {
+    "name": "ウリムー",
+    "basespeed": 50
+  },
+  {
+    "name": "イノムー",
+    "basespeed": 50
+  },
+  {
+    "name": "デリバード",
+    "basespeed": 75
+  },
+  {
+    "name": "エアームド",
+    "basespeed": 70
+  },
+  {
+    "name": "デルビル",
+    "basespeed": 65
+  },
+  {
+    "name": "ヘルガー",
+    "basespeed": 95
+  },
+  {
+    "name": "キングドラ",
+    "basespeed": 85
+  },
+  {
+    "name": "ゴマゾウ",
+    "basespeed": 40
+  },
+  {
+    "name": "ドンファン",
+    "basespeed": 50
+  },
+  {
+    "name": "ポリゴン2",
+    "basespeed": 60
+  },
+  {
+    "name": "オドシシ",
+    "basespeed": 85
+  },
+  {
+    "name": "ドーブル",
+    "basespeed": 75
+  },
+  {
+    "name": "バルキー",
+    "basespeed": 35
+  },
+  {
+    "name": "カポエラー",
+    "basespeed": 70
+  },
+  {
+    "name": "エレキッド",
+    "basespeed": 95
+  },
+  {
+    "name": "ブビィ",
+    "basespeed": 83
+  },
+  {
+    "name": "ハピナス",
+    "basespeed": 55
+  },
+  {
+    "name": "ライコウ",
+    "basespeed": 115
+  },
+  {
+    "name": "エンテイ",
+    "basespeed": 100
+  },
+  {
+    "name": "スイクン",
+    "basespeed": 85
+  },
+  {
+    "name": "ヨーギラス",
+    "basespeed": 41
+  },
+  {
+    "name": "サナギラス",
+    "basespeed": 51
+  },
+  {
+    "name": "バンギラス",
+    "basespeed": 61
+  },
+  {
+    "name": "ルギア",
+    "basespeed": 110
+  },
+  {
+    "name": "ホウオウ",
+    "basespeed": 90
+  },
+  {
+    "name": "キモリ",
+    "basespeed": 70
+  },
+  {
+    "name": "ジュプトル",
+    "basespeed": 95
+  },
+  {
+    "name": "ジュカイン",
+    "basespeed": 120
+  },
+  {
+    "name": "アチャモ",
+    "basespeed": 45
+  },
+  {
+    "name": "ワカシャモ",
+    "basespeed": 55
+  },
+  {
+    "name": "バシャーモ",
+    "basespeed": 80
+  },
+  {
+    "name": "ミズゴロウ",
+    "basespeed": 40
+  },
+  {
+    "name": "ヌマクロー",
+    "basespeed": 50
+  },
+  {
+    "name": "ラグラージ",
+    "basespeed": 60
+  },
+  {
+    "name": "ポチエナ",
+    "basespeed": 35
+  },
+  {
+    "name": "グラエナ",
+    "basespeed": 70
+  },
+  {
+    "name": "ハスボー",
+    "basespeed": 30
+  },
+  {
+    "name": "ハスブレロ",
+    "basespeed": 50
+  },
+  {
+    "name": "ルンパッパ",
+    "basespeed": 70
+  },
+  {
+    "name": "タネボー",
+    "basespeed": 30
+  },
+  {
+    "name": "コノハナ",
+    "basespeed": 60
+  },
+  {
+    "name": "ダーテング",
+    "basespeed": 80
+  },
+  {
+    "name": "キャモメ",
+    "basespeed": 85
+  },
+  {
+    "name": "ペリッパー",
+    "basespeed": 65
+  },
+  {
+    "name": "ラルトス",
+    "basespeed": 40
+  },
+  {
+    "name": "キルリア",
+    "basespeed": 50
+  },
+  {
+    "name": "サーナイト",
+    "basespeed": 80
+  },
+  {
+    "name": "アメタマ",
+    "basespeed": 65
+  },
+  {
+    "name": "アメモース",
+    "basespeed": 80
+  },
+  {
+    "name": "キノココ",
+    "basespeed": 35
+  },
+  {
+    "name": "キノガッサ",
+    "basespeed": 70
+  },
+  {
+    "name": "ナマケロ",
+    "basespeed": 30
+  },
+  {
+    "name": "ヤルキモノ",
+    "basespeed": 90
+  },
+  {
+    "name": "ケッキング",
+    "basespeed": 100
+  },
+  {
+    "name": "マクノシタ",
+    "basespeed": 25
+  },
+  {
+    "name": "ハリテヤマ",
+    "basespeed": 50
+  },
+  {
+    "name": "ルリリ",
+    "basespeed": 20
+  },
+  {
+    "name": "ノズパス",
+    "basespeed": 30
+  },
+  {
+    "name": "ヤミラミ",
+    "basespeed": 50
+  },
+  {
+    "name": "アサナン",
+    "basespeed": 60
+  },
+  {
+    "name": "チャーレム",
+    "basespeed": 80
+  },
+  {
+    "name": "プラスル",
+    "basespeed": 95
+  },
+  {
+    "name": "マイナン",
+    "basespeed": 95
+  },
+  {
+    "name": "バルビート",
+    "basespeed": 85
+  },
+  {
+    "name": "イルミーゼ",
+    "basespeed": 85
+  },
+  {
+    "name": "ゴクリン",
+    "basespeed": 40
+  },
+  {
+    "name": "マルノーム",
+    "basespeed": 55
+  },
+  {
+    "name": "ドンメル",
+    "basespeed": 35
+  },
+  {
+    "name": "バクーダ",
+    "basespeed": 40
+  },
+  {
+    "name": "コータス",
+    "basespeed": 20
+  },
+  {
+    "name": "バネブー",
+    "basespeed": 60
+  },
+  {
+    "name": "ブーピッグ",
+    "basespeed": 80
+  },
+  {
+    "name": "ナックラー",
+    "basespeed": 10
+  },
+  {
+    "name": "ビブラーバ",
+    "basespeed": 70
+  },
+  {
+    "name": "フライゴン",
+    "basespeed": 100
+  },
+  {
+    "name": "サボネア",
+    "basespeed": 35
+  },
+  {
+    "name": "ノクタス",
+    "basespeed": 55
+  },
+  {
+    "name": "チルット",
+    "basespeed": 50
+  },
+  {
+    "name": "チルタリス",
+    "basespeed": 80
+  },
+  {
+    "name": "ザングース",
+    "basespeed": 90
+  },
+  {
+    "name": "ハブネーク",
+    "basespeed": 65
+  },
+  {
+    "name": "ドジョッチ",
+    "basespeed": 60
+  },
+  {
+    "name": "ナマズン",
+    "basespeed": 60
+  },
+  {
+    "name": "ヘイガニ",
+    "basespeed": 35
+  },
+  {
+    "name": "シザリガー",
+    "basespeed": 55
+  },
+  {
+    "name": "ヒンバス",
+    "basespeed": 80
+  },
+  {
+    "name": "ミロカロス",
+    "basespeed": 81
+  },
+  {
+    "name": "カゲボウズ",
+    "basespeed": 45
+  },
+  {
+    "name": "ジュペッタ",
+    "basespeed": 65
+  },
+  {
+    "name": "ヨマワル",
+    "basespeed": 25
+  },
+  {
+    "name": "サマヨール",
+    "basespeed": 25
+  },
+  {
+    "name": "トロピウス",
+    "basespeed": 51
+  },
+  {
+    "name": "チリーン",
+    "basespeed": 65
+  },
+  {
+    "name": "ユキワラシ",
+    "basespeed": 50
+  },
+  {
+    "name": "オニゴーリ",
+    "basespeed": 80
+  },
+  {
+    "name": "ラブカス",
+    "basespeed": 97
+  },
+  {
+    "name": "タツベイ",
+    "basespeed": 50
+  },
+  {
+    "name": "コモルー",
+    "basespeed": 50
+  },
+  {
+    "name": "ボーマンダ",
+    "basespeed": 100
+  },
+  {
+    "name": "ダンバル",
+    "basespeed": 30
+  },
+  {
+    "name": "メタング",
+    "basespeed": 50
+  },
+  {
+    "name": "メタグロス",
+    "basespeed": 70
+  },
+  {
+    "name": "レジロック",
+    "basespeed": 50
+  },
+  {
+    "name": "レジアイス",
+    "basespeed": 50
+  },
+  {
+    "name": "レジスチル",
+    "basespeed": 50
+  },
+  {
+    "name": "ラティアス",
+    "basespeed": 110
+  },
+  {
+    "name": "ラティオス",
+    "basespeed": 110
+  },
+  {
+    "name": "カイオーガ",
+    "basespeed": 90
+  },
+  {
+    "name": "グラードン",
+    "basespeed": 90
+  },
+  {
+    "name": "レックウザ",
+    "basespeed": 95
+  },
+  {
+    "name": "ジラーチ",
+    "basespeed": 100
+  },
+  {
+    "name": "デオキシス\n(ノーマルフォルム)",
+    "basespeed": 150
+  },
+  {
+    "name": "デオキシス\n(アタックフォルム)",
+    "basespeed": 150
+  },
+  {
+    "name": "デオキシス\n(ディフェンスフォルム)",
+    "basespeed": 90
+  },
+  {
+    "name": "デオキシス\n(スピードフォルム)",
+    "basespeed": 180
+  },
+  {
+    "name": "ナエトル",
+    "basespeed": 31
+  },
+  {
+    "name": "ハヤシガメ",
+    "basespeed": 36
+  },
+  {
+    "name": "ドダイトス",
+    "basespeed": 56
+  },
+  {
+    "name": "ヒコザル",
+    "basespeed": 61
+  },
+  {
+    "name": "モウカザル",
+    "basespeed": 81
+  },
+  {
+    "name": "ゴウカザル",
+    "basespeed": 108
+  },
+  {
+    "name": "ポッチャマ",
+    "basespeed": 40
+  },
+  {
+    "name": "ポッタイシ",
+    "basespeed": 50
+  },
+  {
+    "name": "エンペルト",
+    "basespeed": 60
+  },
+  {
+    "name": "ムックル",
+    "basespeed": 60
+  },
+  {
+    "name": "ムクバード",
+    "basespeed": 80
+  },
+  {
+    "name": "ムクホーク",
+    "basespeed": 100
+  },
+  {
+    "name": "コロボーシ",
+    "basespeed": 25
+  },
+  {
+    "name": "コロトック",
+    "basespeed": 65
+  },
+  {
+    "name": "コリンク",
+    "basespeed": 45
+  },
+  {
+    "name": "ルクシオ",
+    "basespeed": 60
+  },
+  {
+    "name": "レントラー",
+    "basespeed": 70
+  },
+  {
+    "name": "ズガイドス",
+    "basespeed": 58
+  },
+  {
+    "name": "ラムパルド",
+    "basespeed": 58
+  },
+  {
+    "name": "タテトプス",
+    "basespeed": 30
+  },
+  {
+    "name": "トリデプス",
+    "basespeed": 30
+  },
+  {
+    "name": "ミツハニー",
+    "basespeed": 70
+  },
+  {
+    "name": "ビークイン",
+    "basespeed": 40
+  },
+  {
+    "name": "パチリス",
+    "basespeed": 95
+  },
+  {
+    "name": "ブイゼル",
+    "basespeed": 85
+  },
+  {
+    "name": "フローゼル",
+    "basespeed": 115
+  },
+  {
+    "name": "カラナクシ\n(にしのうみ)",
+    "basespeed": 34
+  },
+  {
+    "name": "カラナクシ\n(ひがしのうみ)",
+    "basespeed": 34
+  },
+  {
+    "name": "トリトドン\n(にしのうみ)",
+    "basespeed": 39
+  },
+  {
+    "name": "トリトドン\n(ひがしのうみ)",
+    "basespeed": 39
+  },
+  {
+    "name": "エテボース",
+    "basespeed": 115
+  },
+  {
+    "name": "フワンテ",
+    "basespeed": 70
+  },
+  {
+    "name": "フワライド",
+    "basespeed": 80
+  },
+  {
+    "name": "ムウマージ",
+    "basespeed": 105
+  },
+  {
+    "name": "ドンカラス",
+    "basespeed": 71
+  },
+  {
+    "name": "リーシャン",
+    "basespeed": 45
+  },
+  {
+    "name": "スカンプー",
+    "basespeed": 74
+  },
+  {
+    "name": "スカタンク",
+    "basespeed": 84
+  },
+  {
+    "name": "ドーミラー",
+    "basespeed": 23
+  },
+  {
+    "name": "ドータクン",
+    "basespeed": 33
+  },
+  {
+    "name": "ウソハチ",
+    "basespeed": 10
+  },
+  {
+    "name": "ピンプク",
+    "basespeed": 30
+  },
+  {
+    "name": "ミカルゲ",
+    "basespeed": 35
+  },
+  {
+    "name": "フカマル",
+    "basespeed": 42
+  },
+  {
+    "name": "ガバイト",
+    "basespeed": 82
+  },
+  {
+    "name": "ガブリアス",
+    "basespeed": 102
+  },
+  {
+    "name": "ゴンベ",
+    "basespeed": 5
+  },
+  {
+    "name": "リオル",
+    "basespeed": 60
+  },
+  {
+    "name": "ルカリオ",
+    "basespeed": 90
+  },
+  {
+    "name": "ヒポポタス",
+    "basespeed": 32
+  },
+  {
+    "name": "カバルドン",
+    "basespeed": 47
+  },
+  {
+    "name": "グレッグル",
+    "basespeed": 50
+  },
+  {
+    "name": "ドクロッグ",
+    "basespeed": 85
+  },
+  {
+    "name": "ケイコウオ",
+    "basespeed": 66
+  },
+  {
+    "name": "ネオラント",
+    "basespeed": 91
+  },
+  {
+    "name": "ユキカブリ",
+    "basespeed": 40
+  },
+  {
+    "name": "ユキノオー",
+    "basespeed": 60
+  },
+  {
+    "name": "マニューラ",
+    "basespeed": 125
+  },
+  {
+    "name": "ジバコイル",
+    "basespeed": 60
+  },
+  {
+    "name": "ドサイドン",
+    "basespeed": 40
+  },
+  {
+    "name": "エレキブル",
+    "basespeed": 95
+  },
+  {
+    "name": "ブーバーン",
+    "basespeed": 83
+  },
+  {
+    "name": "メガヤンマ",
+    "basespeed": 95
+  },
+  {
+    "name": "リーフィア",
+    "basespeed": 95
+  },
+  {
+    "name": "グレイシア",
+    "basespeed": 65
+  },
+  {
+    "name": "グライオン",
+    "basespeed": 95
+  },
+  {
+    "name": "マンムー",
+    "basespeed": 80
+  },
+  {
+    "name": "ポリゴンZ",
+    "basespeed": 90
+  },
+  {
+    "name": "エルレイド",
+    "basespeed": 80
+  },
+  {
+    "name": "ダイノーズ",
+    "basespeed": 40
+  },
+  {
+    "name": "ヨノワール",
+    "basespeed": 45
+  },
+  {
+    "name": "ユキメノコ",
+    "basespeed": 110
+  },
+  {
+    "name": "ロトム",
+    "basespeed": 91
+  },
+  {
+    "name": "ロトム\n(ヒートロトム)",
+    "basespeed": 86
+  },
+  {
+    "name": "ロトム\n(ウォッシュロトム)",
+    "basespeed": 86
+  },
+  {
+    "name": "ロトム\n(フロストロトム)",
+    "basespeed": 86
+  },
+  {
+    "name": "ロトム\n(スピンロトム)",
+    "basespeed": 86
+  },
+  {
+    "name": "ロトム\n(カットロトム)",
+    "basespeed": 86
+  },
+  {
+    "name": "ユクシー",
+    "basespeed": 95
+  },
+  {
+    "name": "エムリット",
+    "basespeed": 80
+  },
+  {
+    "name": "アグノム",
+    "basespeed": 115
+  },
+  {
+    "name": "ディアルガ",
+    "basespeed": 90
+  },
+  {
+    "name": "ディアルガ\n(オリジンフォルム)",
+    "basespeed": 90
+  },
+  {
+    "name": "パルキア",
+    "basespeed": 100
+  },
+  {
+    "name": "パルキア\n(オリジンフォルム)",
+    "basespeed": 120
+  },
+  {
+    "name": "ヒードラン",
+    "basespeed": 77
+  },
+  {
+    "name": "レジギガス",
+    "basespeed": 100
+  },
+  {
+    "name": "ギラティナ\n(アナザーフォルム)",
+    "basespeed": 90
+  },
+  {
+    "name": "ギラティナ\n(オリジンフォルム)",
+    "basespeed": 90
+  },
+  {
+    "name": "クレセリア",
+    "basespeed": 85
+  },
+  {
+    "name": "フィオネ",
+    "basespeed": 80
+  },
+  {
+    "name": "マナフィ",
+    "basespeed": 100
+  },
+  {
+    "name": "ダークライ",
+    "basespeed": 125
+  },
+  {
+    "name": "シェイミ\n(ランドフォルム)",
+    "basespeed": 100
+  },
+  {
+    "name": "シェイミ\n(スカイフォルム)",
+    "basespeed": 127
+  },
+  {
+    "name": "アルセウス",
+    "basespeed": 120
+  },
+  {
+    "name": "ツタージャ",
+    "basespeed": 63
+  },
+  {
+    "name": "ジャノビー",
+    "basespeed": 83
+  },
+  {
+    "name": "ジャローダ",
+    "basespeed": 113
+  },
+  {
+    "name": "ポカブ",
+    "basespeed": 45
+  },
+  {
+    "name": "チャオブー",
+    "basespeed": 55
+  },
+  {
+    "name": "エンブオー",
+    "basespeed": 65
+  },
+  {
+    "name": "ミジュマル",
+    "basespeed": 45
+  },
+  {
+    "name": "フタチマル",
+    "basespeed": 60
+  },
+  {
+    "name": "ダイケンキ",
+    "basespeed": 70
+  },
+  {
+    "name": "ダイケンキ\n(ヒスイのすがた)",
+    "basespeed": 85
+  },
+  {
+    "name": "シママ",
+    "basespeed": 76
+  },
+  {
+    "name": "ゼブライカ",
+    "basespeed": 116
+  },
+  {
+    "name": "モグリュー",
+    "basespeed": 68
+  },
+  {
+    "name": "ドリュウズ",
+    "basespeed": 88
+  },
+  {
+    "name": "ドッコラー",
+    "basespeed": 35
+  },
+  {
+    "name": "ドテッコツ",
+    "basespeed": 40
+  },
+  {
+    "name": "ローブシン",
+    "basespeed": 45
+  },
+  {
+    "name": "クルミル",
+    "basespeed": 42
+  },
+  {
+    "name": "クルマユ",
+    "basespeed": 42
+  },
+  {
+    "name": "ハハコモリ",
+    "basespeed": 92
+  },
+  {
+    "name": "モンメン",
+    "basespeed": 66
+  },
+  {
+    "name": "エルフーン",
+    "basespeed": 116
+  },
+  {
+    "name": "チュリネ",
+    "basespeed": 30
+  },
+  {
+    "name": "ドレディア",
+    "basespeed": 90
+  },
+  {
+    "name": "ドレディア\n(ヒスイのすがた)",
+    "basespeed": 105
+  },
+  {
+    "name": "バスラオ\n(あかすじのすがた)",
+    "basespeed": 98
+  },
+  {
+    "name": "バスラオ\n(あおすじのすがた)",
+    "basespeed": 98
+  },
+  {
+    "name": "バスラオ\n(しろすじのすがた)",
+    "basespeed": 98
+  },
+  {
+    "name": "メグロコ",
+    "basespeed": 65
+  },
+  {
+    "name": "ワルビル",
+    "basespeed": 74
+  },
+  {
+    "name": "ワルビアル",
+    "basespeed": 92
+  },
+  {
+    "name": "ズルッグ",
+    "basespeed": 48
+  },
+  {
+    "name": "ズルズキン",
+    "basespeed": 58
+  },
+  {
+    "name": "ゾロア",
+    "basespeed": 65
+  },
+  {
+    "name": "ゾロア\n(ヒスイのすがた)",
+    "basespeed": 70
+  },
+  {
+    "name": "ゾロアーク",
+    "basespeed": 105
+  },
+  {
+    "name": "ゾロアーク\n(ヒスイのすがた)",
+    "basespeed": 110
+  },
+  {
+    "name": "チラーミィ",
+    "basespeed": 75
+  },
+  {
+    "name": "チラチーノ",
+    "basespeed": 115
+  },
+  {
+    "name": "ゴチム",
+    "basespeed": 45
+  },
+  {
+    "name": "ゴチミル",
+    "basespeed": 55
+  },
+  {
+    "name": "ゴチルゼル",
+    "basespeed": 65
+  },
+  {
+    "name": "ユニラン",
+    "basespeed": 20
+  },
+  {
+    "name": "ダブラン",
+    "basespeed": 30
+  },
+  {
+    "name": "ランクルス",
+    "basespeed": 30
+  },
+  {
+    "name": "コアルヒー",
+    "basespeed": 55
+  },
+  {
+    "name": "スワンナ",
+    "basespeed": 98
+  },
+  {
+    "name": "シキジカ",
+    "basespeed": 75
+  },
+  {
+    "name": "メブキジカ",
+    "basespeed": 95
+  },
+  {
+    "name": "タマゲタケ",
+    "basespeed": 15
+  },
+  {
+    "name": "モロバレル",
+    "basespeed": 30
+  },
+  {
+    "name": "ママンボウ",
+    "basespeed": 65
+  },
+  {
+    "name": "バチュル",
+    "basespeed": 65
+  },
+  {
+    "name": "デンチュラ",
+    "basespeed": 108
+  },
+  {
+    "name": "シビシラス",
+    "basespeed": 60
+  },
+  {
+    "name": "シビビール",
+    "basespeed": 40
+  },
+  {
+    "name": "シビルドン",
+    "basespeed": 50
+  },
+  {
+    "name": "ヒトモシ",
+    "basespeed": 20
+  },
+  {
+    "name": "ランプラー",
+    "basespeed": 55
+  },
+  {
+    "name": "シャンデラ",
+    "basespeed": 80
+  },
+  {
+    "name": "キバゴ",
+    "basespeed": 57
+  },
+  {
+    "name": "オノンド",
+    "basespeed": 67
+  },
+  {
+    "name": "オノノクス",
+    "basespeed": 97
+  },
+  {
+    "name": "クマシュン",
+    "basespeed": 40
+  },
+  {
+    "name": "ツンベアー",
+    "basespeed": 50
+  },
+  {
+    "name": "フリージオ",
+    "basespeed": 105
+  },
+  {
+    "name": "コジョフー",
+    "basespeed": 65
+  },
+  {
+    "name": "コジョンド",
+    "basespeed": 105
+  },
+  {
+    "name": "ゴビット",
+    "basespeed": 35
+  },
+  {
+    "name": "ゴルーグ",
+    "basespeed": 55
+  },
+  {
+    "name": "コマタナ",
+    "basespeed": 60
+  },
+  {
+    "name": "キリキザン",
+    "basespeed": 70
+  },
+  {
+    "name": "ワシボン",
+    "basespeed": 60
+  },
+  {
+    "name": "ウォーグル",
+    "basespeed": 80
+  },
+  {
+    "name": "ウォーグル\n(ヒスイのすがた)",
+    "basespeed": 65
+  },
+  {
+    "name": "バルチャイ",
+    "basespeed": 60
+  },
+  {
+    "name": "バルジーナ",
+    "basespeed": 80
+  },
+  {
+    "name": "モノズ",
+    "basespeed": 38
+  },
+  {
+    "name": "ジヘッド",
+    "basespeed": 58
+  },
+  {
+    "name": "サザンドラ",
+    "basespeed": 98
+  },
+  {
+    "name": "メラルバ",
+    "basespeed": 60
+  },
+  {
+    "name": "ウルガモス",
+    "basespeed": 100
+  },
+  {
+    "name": "コバルオン",
+    "basespeed": 108
+  },
+  {
+    "name": "テラキオン",
+    "basespeed": 108
+  },
+  {
+    "name": "ビリジオン",
+    "basespeed": 108
+  },
+  {
+    "name": "トルネロス\n(けしんフォルム)",
+    "basespeed": 111
+  },
+  {
+    "name": "トルネロス\n(れいじゅうフォルム)",
+    "basespeed": 121
+  },
+  {
+    "name": "ボルトロス\n(けしんフォルム)",
+    "basespeed": 111
+  },
+  {
+    "name": "ボルトロス\n(れいじゅうフォルム)",
+    "basespeed": 101
+  },
+  {
+    "name": "レシラム",
+    "basespeed": 90
+  },
+  {
+    "name": "ゼクロム",
+    "basespeed": 90
+  },
+  {
+    "name": "ランドロス\n(けしんフォルム)",
+    "basespeed": 101
+  },
+  {
+    "name": "ランドロス\n(れいじゅうフォルム)",
+    "basespeed": 91
+  },
+  {
+    "name": "キュレム",
+    "basespeed": 95
+  },
+  {
+    "name": "キュレム\n(ホワイトキュレム)",
+    "basespeed": 95
+  },
+  {
+    "name": "キュレム\n(ブラックキュレム)",
+    "basespeed": 95
+  },
+  {
+    "name": "ケルディオ\n(いつものすがた)",
+    "basespeed": 108
+  },
+  {
+    "name": "ケルディオ\n(かくごのすがた)",
+    "basespeed": 108
+  },
+  {
+    "name": "メロエッタ\n(ボイスフォルム)",
+    "basespeed": 90
+  },
+  {
+    "name": "メロエッタ\n(ステップフォルム)",
+    "basespeed": 128
+  },
+  {
+    "name": "ハリマロン",
+    "basespeed": 38
+  },
+  {
+    "name": "ハリボーグ",
+    "basespeed": 57
+  },
+  {
+    "name": "ブリガロン",
+    "basespeed": 64
+  },
+  {
+    "name": "フォッコ",
+    "basespeed": 60
+  },
+  {
+    "name": "テールナー",
+    "basespeed": 73
+  },
+  {
+    "name": "マフォクシー",
+    "basespeed": 104
+  },
+  {
+    "name": "ケロマツ",
+    "basespeed": 71
+  },
+  {
+    "name": "ゲコガシラ",
+    "basespeed": 97
+  },
+  {
+    "name": "ゲッコウガ",
+    "basespeed": 122
+  },
+  {
+    "name": "ヤヤコマ",
+    "basespeed": 62
+  },
+  {
+    "name": "ヒノヤコマ",
+    "basespeed": 84
+  },
+  {
+    "name": "ファイアロー",
+    "basespeed": 126
+  },
+  {
+    "name": "コフキムシ",
+    "basespeed": 35
+  },
+  {
+    "name": "コフーライ",
+    "basespeed": 29
+  },
+  {
+    "name": "ビビヨン",
+    "basespeed": 89
+  },
+  {
+    "name": "シシコ",
+    "basespeed": 72
+  },
+  {
+    "name": "カエンジシ",
+    "basespeed": 106
+  },
+  {
+    "name": "フラベベ",
+    "basespeed": 42
+  },
+  {
+    "name": "フラエッテ",
+    "basespeed": 52
+  },
+  {
+    "name": "フラージェス",
+    "basespeed": 75
+  },
+  {
+    "name": "メェークル",
+    "basespeed": 52
+  },
+  {
+    "name": "ゴーゴート",
+    "basespeed": 68
+  },
+  {
+    "name": "ニャスパー",
+    "basespeed": 68
+  },
+  {
+    "name": "ニャオニクス",
+    "basespeed": 104
+  },
+  {
+    "name": "マーイーカ",
+    "basespeed": 45
+  },
+  {
+    "name": "カラマネロ",
+    "basespeed": 73
+  },
+  {
+    "name": "クズモー",
+    "basespeed": 30
+  },
+  {
+    "name": "ドラミドロ",
+    "basespeed": 44
+  },
+  {
+    "name": "ウデッポウ",
+    "basespeed": 44
+  },
+  {
+    "name": "ブロスター",
+    "basespeed": 59
+  },
+  {
+    "name": "ニンフィア",
+    "basespeed": 60
+  },
+  {
+    "name": "ルチャブル",
+    "basespeed": 118
+  },
+  {
+    "name": "デデンネ",
+    "basespeed": 101
+  },
+  {
+    "name": "メレシー",
+    "basespeed": 50
+  },
+  {
+    "name": "ヌメラ",
+    "basespeed": 40
+  },
+  {
+    "name": "ヌメイル",
+    "basespeed": 60
+  },
+  {
+    "name": "ヌメイル\n(ヒスイのすがた)",
+    "basespeed": 40
+  },
+  {
+    "name": "ヌメルゴン",
+    "basespeed": 80
+  },
+  {
+    "name": "ヌメルゴン\n(ヒスイのすがた)",
+    "basespeed": 60
+  },
+  {
+    "name": "クレッフィ",
+    "basespeed": 75
+  },
+  {
+    "name": "ボクレー",
+    "basespeed": 38
+  },
+  {
+    "name": "オーロット",
+    "basespeed": 56
+  },
+  {
+    "name": "カチコール",
+    "basespeed": 28
+  },
+  {
+    "name": "クレベース",
+    "basespeed": 28
+  },
+  {
+    "name": "クレベース\n(ヒスイのすがた)",
+    "basespeed": 38
+  },
+  {
+    "name": "オンバット",
+    "basespeed": 55
+  },
+  {
+    "name": "オンバーン",
+    "basespeed": 123
+  },
+  {
+    "name": "ディアンシー",
+    "basespeed": 50
+  },
+  {
+    "name": "フーパ\n(いましめられしすがた)",
+    "basespeed": 70
+  },
+  {
+    "name": "フーパ\n(ときはなたれしすがた)",
+    "basespeed": 80
+  },
+  {
+    "name": "ボルケニオン",
+    "basespeed": 70
+  },
+  {
+    "name": "モクロー",
+    "basespeed": 42
+  },
+  {
+    "name": "フクスロー",
+    "basespeed": 52
+  },
+  {
+    "name": "ジュナイパー",
+    "basespeed": 70
+  },
+  {
+    "name": "ジュナイパー\n(ヒスイのすがた)",
+    "basespeed": 60
+  },
+  {
+    "name": "ニャビー",
+    "basespeed": 70
+  },
+  {
+    "name": "ニャヒート",
+    "basespeed": 90
+  },
+  {
+    "name": "ガオガエン",
+    "basespeed": 60
+  },
+  {
+    "name": "アシマリ",
+    "basespeed": 40
+  },
+  {
+    "name": "オシャマリ",
+    "basespeed": 50
+  },
+  {
+    "name": "アシレーヌ",
+    "basespeed": 60
+  },
+  {
+    "name": "ツツケラ",
+    "basespeed": 65
+  },
+  {
+    "name": "ケララッパ",
+    "basespeed": 75
+  },
+  {
+    "name": "ドデカバシ",
+    "basespeed": 60
+  },
+  {
+    "name": "ヤングース",
+    "basespeed": 45
+  },
+  {
+    "name": "デカグース",
+    "basespeed": 45
+  },
+  {
+    "name": "アゴジムシ",
+    "basespeed": 46
+  },
+  {
+    "name": "デンヂムシ",
+    "basespeed": 36
+  },
+  {
+    "name": "クワガノン",
+    "basespeed": 43
+  },
+  {
+    "name": "マケンカニ",
+    "basespeed": 63
+  },
+  {
+    "name": "ケケンカニ",
+    "basespeed": 43
+  },
+  {
+    "name": "オドリドリ\n(めらめらスタイル)",
+    "basespeed": 93
+  },
+  {
+    "name": "オドリドリ\n(ぱちぱちスタイル)",
+    "basespeed": 93
+  },
+  {
+    "name": "オドリドリ\n(ふらふらスタイル)",
+    "basespeed": 93
+  },
+  {
+    "name": "オドリドリ\n(まいまいスタイル)",
+    "basespeed": 93
+  },
+  {
+    "name": "アブリー",
+    "basespeed": 84
+  },
+  {
+    "name": "アブリボン",
+    "basespeed": 124
+  },
+  {
+    "name": "イワンコ",
+    "basespeed": 60
+  },
+  {
+    "name": "ルガルガン\n(まひるのすがた)",
+    "basespeed": 112
+  },
+  {
+    "name": "ルガルガン\n(まよなかのすがた)",
+    "basespeed": 82
+  },
+  {
+    "name": "ルガルガン\n(たそがれのすがた)",
+    "basespeed": 110
+  },
+  {
+    "name": "ヒドイデ",
+    "basespeed": 45
+  },
+  {
+    "name": "ドヒドイデ",
+    "basespeed": 35
+  },
+  {
+    "name": "ドロバンコ",
+    "basespeed": 45
+  },
+  {
+    "name": "バンバドロ",
+    "basespeed": 35
+  },
+  {
+    "name": "シズクモ",
+    "basespeed": 27
+  },
+  {
+    "name": "オニシズクモ",
+    "basespeed": 42
+  },
+  {
+    "name": "カリキリ",
+    "basespeed": 35
+  },
+  {
+    "name": "ラランテス",
+    "basespeed": 45
+  },
+  {
+    "name": "ヤトウモリ",
+    "basespeed": 77
+  },
+  {
+    "name": "エンニュート",
+    "basespeed": 117
+  },
+  {
+    "name": "アマカジ",
+    "basespeed": 32
+  },
+  {
+    "name": "アママイコ",
+    "basespeed": 62
+  },
+  {
+    "name": "アマージョ",
+    "basespeed": 72
+  },
+  {
+    "name": "キュワワー",
+    "basespeed": 100
+  },
+  {
+    "name": "ヤレユータン",
+    "basespeed": 60
+  },
+  {
+    "name": "ナゲツケサル",
+    "basespeed": 80
+  },
+  {
+    "name": "スナバァ",
+    "basespeed": 15
+  },
+  {
+    "name": "シロデスナ",
+    "basespeed": 35
+  },
+  {
+    "name": "メテノ\n(りゅうせいのすがた)",
+    "basespeed": 60
+  },
+  {
+    "name": "メテノ\n(コアのすがた)",
+    "basespeed": 120
+  },
+  {
+    "name": "ネッコアラ",
+    "basespeed": 65
+  },
+  {
+    "name": "ミミッキュ",
+    "basespeed": 96
+  },
+  {
+    "name": "ハギギシリ",
+    "basespeed": 92
+  },
+  {
+    "name": "カプ・コケコ",
+    "basespeed": 130
+  },
+  {
+    "name": "カプ・テテフ",
+    "basespeed": 95
+  },
+  {
+    "name": "カプ・ブルル",
+    "basespeed": 75
+  },
+  {
+    "name": "カプ・レヒレ",
+    "basespeed": 85
+  },
+  {
+    "name": "コスモッグ",
+    "basespeed": 37
+  },
+  {
+    "name": "コスモウム",
+    "basespeed": 37
+  },
+  {
+    "name": "ソルガレオ",
+    "basespeed": 97
+  },
+  {
+    "name": "ルナアーラ",
+    "basespeed": 97
+  },
+  {
+    "name": "ネクロズマ",
+    "basespeed": 79
+  },
+  {
+    "name": "ネクロズマ\n(たそがれのたてがみ)",
+    "basespeed": 77
+  },
+  {
+    "name": "ネクロズマ\n(あかつきのつばさ)",
+    "basespeed": 77
+  },
+  {
+    "name": "マギアナ",
+    "basespeed": 65
+  },
+  {
+    "name": "サルノリ",
+    "basespeed": 65
+  },
+  {
+    "name": "バチンキー",
+    "basespeed": 80
+  },
+  {
+    "name": "ゴリランダー",
+    "basespeed": 85
+  },
+  {
+    "name": "ヒバニー",
+    "basespeed": 69
+  },
+  {
+    "name": "ラビフット",
+    "basespeed": 94
+  },
+  {
+    "name": "エースバーン",
+    "basespeed": 119
+  },
+  {
+    "name": "メッソン",
+    "basespeed": 70
+  },
+  {
+    "name": "ジメレオン",
+    "basespeed": 90
+  },
+  {
+    "name": "インテレオン",
+    "basespeed": 120
+  },
+  {
+    "name": "ホシガリス",
+    "basespeed": 25
+  },
+  {
+    "name": "ヨクバリス",
+    "basespeed": 20
+  },
+  {
+    "name": "ココガラ",
+    "basespeed": 57
+  },
+  {
+    "name": "アオガラス",
+    "basespeed": 77
+  },
+  {
+    "name": "アーマーガア",
+    "basespeed": 67
+  },
+  {
+    "name": "カムカメ",
+    "basespeed": 44
+  },
+  {
+    "name": "カジリガメ",
+    "basespeed": 74
+  },
+  {
+    "name": "タンドン",
+    "basespeed": 30
+  },
+  {
+    "name": "トロッゴン",
+    "basespeed": 50
+  },
+  {
+    "name": "セキタンザン",
+    "basespeed": 30
+  },
+  {
+    "name": "カジッチュ",
+    "basespeed": 20
+  },
+  {
+    "name": "アップリュー",
+    "basespeed": 70
+  },
+  {
+    "name": "タルップル",
+    "basespeed": 30
+  },
+  {
+    "name": "スナヘビ",
+    "basespeed": 46
+  },
+  {
+    "name": "サダイジャ",
+    "basespeed": 71
+  },
+  {
+    "name": "ウッウ",
+    "basespeed": 85
+  },
+  {
+    "name": "サシカマス",
+    "basespeed": 66
+  },
+  {
+    "name": "カマスジョー",
+    "basespeed": 136
+  },
+  {
+    "name": "エレズン",
+    "basespeed": 40
+  },
+  {
+    "name": "ストリンダー\n(ハイなすがた)",
+    "basespeed": 75
+  },
+  {
+    "name": "ストリンダー\n(ローなすがた)",
+    "basespeed": 75
+  },
+  {
+    "name": "ヤバチャ",
+    "basespeed": 50
+  },
+  {
+    "name": "ポットデス",
+    "basespeed": 70
+  },
+  {
+    "name": "ミブリム",
+    "basespeed": 39
+  },
+  {
+    "name": "テブリム",
+    "basespeed": 49
+  },
+  {
+    "name": "ブリムオン",
+    "basespeed": 29
+  },
+  {
+    "name": "ベロバー",
+    "basespeed": 50
+  },
+  {
+    "name": "ギモー",
+    "basespeed": 70
+  },
+  {
+    "name": "オーロンゲ",
+    "basespeed": 60
+  },
+  {
+    "name": "ニャイキング",
+    "basespeed": 50
+  },
+  {
+    "name": "マホミル",
+    "basespeed": 34
+  },
+  {
+    "name": "マホイップ",
+    "basespeed": 64
+  },
+  {
+    "name": "タイレーツ",
+    "basespeed": 75
+  },
+  {
+    "name": "バチンウニ",
+    "basespeed": 15
+  },
+  {
+    "name": "ユキハミ",
+    "basespeed": 20
+  },
+  {
+    "name": "モスノウ",
+    "basespeed": 65
+  },
+  {
+    "name": "イシヘンジン",
+    "basespeed": 70
+  },
+  {
+    "name": "コオリッポ\n(アイスフェイス)",
+    "basespeed": 50
+  },
+  {
+    "name": "コオリッポ\n(ナイスフェイス)",
+    "basespeed": 130
+  },
+  {
+    "name": "イエッサン♂",
+    "basespeed": 95
+  },
+  {
+    "name": "イエッサン♀",
+    "basespeed": 85
+  },
+  {
+    "name": "モルペコ",
+    "basespeed": 97
+  },
+  {
+    "name": "ゾウドウ",
+    "basespeed": 40
+  },
+  {
+    "name": "ダイオウドウ",
+    "basespeed": 30
+  },
+  {
+    "name": "ジュラルドン",
+    "basespeed": 85
+  },
+  {
+    "name": "ドラメシヤ",
+    "basespeed": 82
+  },
+  {
+    "name": "ドロンチ",
+    "basespeed": 102
+  },
+  {
+    "name": "ドラパルト",
+    "basespeed": 142
+  },
+  {
+    "name": "ザシアン",
+    "basespeed": 138
+  },
+  {
+    "name": "ザシアン\n(けんのおう)",
+    "basespeed": 148
+  },
+  {
+    "name": "ザマゼンタ",
+    "basespeed": 138
+  },
+  {
+    "name": "ザマゼンタ\n(たてのおう)",
+    "basespeed": 128
+  },
+  {
+    "name": "ムゲンダイナ",
+    "basespeed": 130
+  },
+  {
+    "name": "ダクマ",
+    "basespeed": 72
+  },
+  {
+    "name": "ウーラオス\n(いちげきのかた)",
+    "basespeed": 97
+  },
+  {
+    "name": "ウーラオス\n(れんげきのかた)",
+    "basespeed": 97
+  },
+  {
+    "name": "ザルード",
+    "basespeed": 105
+  },
+  {
+    "name": "レジエレキ",
+    "basespeed": 200
+  },
+  {
+    "name": "レジドラゴ",
+    "basespeed": 80
+  },
+  {
+    "name": "ブリザポス",
+    "basespeed": 30
+  },
+  {
+    "name": "レイスポス",
+    "basespeed": 130
+  },
+  {
+    "name": "バドレックス",
+    "basespeed": 80
+  },
+  {
+    "name": "バドレックス\n(はくばじょうのすがた)",
+    "basespeed": 50
+  },
+  {
+    "name": "バドレックス\n(こくばじょうのすがた)",
+    "basespeed": 150
+  },
+  {
+    "name": "アヤシシ",
+    "basespeed": 65
+  },
+  {
+    "name": "バサギリ",
+    "basespeed": 85
+  },
+  {
+    "name": "ガチグマ",
+    "basespeed": 50
+  },
+  {
+    "name": "イダイトウ♂",
+    "basespeed": 78
+  },
+  {
+    "name": "イダイトウ♀",
+    "basespeed": 78
+  },
+  {
+    "name": "オオニューラ",
+    "basespeed": 120
+  },
+  {
+    "name": "ハリーマン",
+    "basespeed": 85
+  },
+  {
+    "name": "ラブトロス\n(けしんフォルム)",
+    "basespeed": 106
+  },
+  {
+    "name": "ラブトロス\n(れいじゅうフォルム)",
+    "basespeed": 46
+  },
+  {
+    "name": "ニャオハ",
+    "basespeed": 65
+  },
+  {
+    "name": "ニャローテ",
+    "basespeed": 83
+  },
+  {
+    "name": "マスカーニャ",
+    "basespeed": 123
+  },
+  {
+    "name": "ホゲータ",
+    "basespeed": 36
+  },
+  {
+    "name": "アチゲータ",
+    "basespeed": 49
+  },
+  {
+    "name": "ラウドボーン",
+    "basespeed": 66
+  },
+  {
+    "name": "クワッス",
+    "basespeed": 50
+  },
+  {
+    "name": "ウェルカモ",
+    "basespeed": 65
+  },
+  {
+    "name": "ウェーニバル",
+    "basespeed": 85
+  },
+  {
+    "name": "グルトン",
+    "basespeed": 35
+  },
+  {
+    "name": "パフュートン♂",
+    "basespeed": 65
+  },
+  {
+    "name": "パフュートン♀",
+    "basespeed": 65
+  },
+  {
+    "name": "タマンチュラ",
+    "basespeed": 20
+  },
+  {
+    "name": "ワナイダー",
+    "basespeed": 35
+  },
+  {
+    "name": "マメバッタ",
+    "basespeed": 45
+  },
+  {
+    "name": "エクスレッグ",
+    "basespeed": 92
+  },
+  {
+    "name": "パモ",
+    "basespeed": 60
+  },
+  {
+    "name": "パモット",
+    "basespeed": 85
+  },
+  {
+    "name": "パーモット",
+    "basespeed": 105
+  },
+  {
+    "name": "ワッカネズミ",
+    "basespeed": 75
+  },
+  {
+    "name": "イッカネズミ",
+    "basespeed": 111
+  },
+  {
+    "name": "パピモッチ",
+    "basespeed": 65
+  },
+  {
+    "name": "バウッツェル",
+    "basespeed": 95
+  },
+  {
+    "name": "ミニーブ",
+    "basespeed": 30
+  },
+  {
+    "name": "オリーニョ",
+    "basespeed": 33
+  },
+  {
+    "name": "オリーヴァ",
+    "basespeed": 39
+  },
+  {
+    "name": "イキリンコ",
+    "basespeed": 92
+  },
+  {
+    "name": "コジオ",
+    "basespeed": 25
+  },
+  {
+    "name": "ジオヅム",
+    "basespeed": 35
+  },
+  {
+    "name": "キョジオーン",
+    "basespeed": 35
+  },
+  {
+    "name": "カルボウ",
+    "basespeed": 35
+  },
+  {
+    "name": "グレンアルマ",
+    "basespeed": 75
+  },
+  {
+    "name": "ソウブレイズ",
+    "basespeed": 85
+  },
+  {
+    "name": "ズピカ",
+    "basespeed": 45
+  },
+  {
+    "name": "ハラバリー",
+    "basespeed": 45
+  },
+  {
+    "name": "カイデン",
+    "basespeed": 70
+  },
+  {
+    "name": "タイカイデン",
+    "basespeed": 125
+  },
+  {
+    "name": "オラチフ",
+    "basespeed": 51
+  },
+  {
+    "name": "マフィティフ",
+    "basespeed": 85
+  },
+  {
+    "name": "シルシュルー",
+    "basespeed": 75
+  },
+  {
+    "name": "タギングル",
+    "basespeed": 110
+  },
+  {
+    "name": "アノクサ",
+    "basespeed": 60
+  },
+  {
+    "name": "アノホラグサ",
+    "basespeed": 90
+  },
+  {
+    "name": "ノノクラゲ",
+    "basespeed": 70
+  },
+  {
+    "name": "リククラゲ",
+    "basespeed": 100
+  },
+  {
+    "name": "ガケガニ",
+    "basespeed": 75
+  },
+  {
+    "name": "カプサイジ",
+    "basespeed": 50
+  },
+  {
+    "name": "スコヴィラン",
+    "basespeed": 75
+  },
+  {
+    "name": "シガロコ",
+    "basespeed": 30
+  },
+  {
+    "name": "ベラカス",
+    "basespeed": 45
+  },
+  {
+    "name": "ヒラヒナ",
+    "basespeed": 75
+  },
+  {
+    "name": "クエスパトラ",
+    "basespeed": 105
+  },
+  {
+    "name": "カヌチャン",
+    "basespeed": 58
+  },
+  {
+    "name": "ナカヌチャン",
+    "basespeed": 78
+  },
+  {
+    "name": "デカヌチャン",
+    "basespeed": 94
+  },
+  {
+    "name": "ウミディグダ",
+    "basespeed": 95
+  },
+  {
+    "name": "ウミトリオ",
+    "basespeed": 120
+  },
+  {
+    "name": "オトシドリ",
+    "basespeed": 82
+  },
+  {
+    "name": "ナミイルカ",
+    "basespeed": 75
+  },
+  {
+    "name": "イルカマン\nナイーブフォルム",
+    "basespeed": 100
+  },
+  {
+    "name": "イルカマン\nマイティフォルム",
+    "basespeed": 100
+  },
+  {
+    "name": "ブロロン",
+    "basespeed": 47
+  },
+  {
+    "name": "ブロロローム",
+    "basespeed": 90
+  },
+  {
+    "name": "モトトカゲ",
+    "basespeed": 121
+  },
+  {
+    "name": "ミミズズ",
+    "basespeed": 65
+  },
+  {
+    "name": "キラーメ",
+    "basespeed": 60
+  },
+  {
+    "name": "キラフロル",
+    "basespeed": 86
+  },
+  {
+    "name": "ボチ",
+    "basespeed": 34
+  },
+  {
+    "name": "ハカドッグ",
+    "basespeed": 68
+  },
+  {
+    "name": "カラミンゴ",
+    "basespeed": 90
+  },
+  {
+    "name": "アルクジラ",
+    "basespeed": 43
+  },
+  {
+    "name": "ハルクジラ",
+    "basespeed": 73
+  },
+  {
+    "name": "ミガルーサ",
+    "basespeed": 70
+  },
+  {
+    "name": "ヘイラッシャ",
+    "basespeed": 35
+  },
+  {
+    "name": "シャリタツ",
+    "basespeed": 82
+  },
+  {
+    "name": "コノヨザル",
+    "basespeed": 90
+  },
+  {
+    "name": "ドオー",
+    "basespeed": 20
+  },
+  {
+    "name": "リキキリン",
+    "basespeed": 60
+  },
+  {
+    "name": "ノココッチ",
+    "basespeed": 55
+  },
+  {
+    "name": "ドドゲザン",
+    "basespeed": 50
+  },
+  {
+    "name": "イダイナキバ",
+    "basespeed": 87
+  },
+  {
+    "name": "サケブシッポ",
+    "basespeed": 111
+  },
+  {
+    "name": "アラブルタケ",
+    "basespeed": 55
+  },
+  {
+    "name": "ハバタクカミ",
+    "basespeed": 135
+  },
+  {
+    "name": "チヲハウハネ",
+    "basespeed": 81
+  },
+  {
+    "name": "スナノケガワ",
+    "basespeed": 101
+  },
+  {
+    "name": "テツノワダチ",
+    "basespeed": 106
+  },
+  {
+    "name": "テツノツツミ",
+    "basespeed": 136
+  },
+  {
+    "name": "テツノカイナ",
+    "basespeed": 50
+  },
+  {
+    "name": "テツノコウベ",
+    "basespeed": 108
+  },
+  {
+    "name": "テツノドクガ",
+    "basespeed": 110
+  },
+  {
+    "name": "テツノイバラ",
+    "basespeed": 72
+  },
+  {
+    "name": "セビエ",
+    "basespeed": 55
+  },
+  {
+    "name": "セゴール",
+    "basespeed": 62
+  },
+  {
+    "name": "セグレイブ",
+    "basespeed": 87
+  },
+  {
+    "name": "コレクレー\nはこフォルム",
+    "basespeed": 10
+  },
+  {
+    "name": "コレクレー\nとほフォルム",
+    "basespeed": 80
+  },
+  {
+    "name": "サーフゴー",
+    "basespeed": 84
+  },
+  {
+    "name": "チオンジェン",
+    "basespeed": 70
+  },
+  {
+    "name": "パオジアン",
+    "basespeed": 135
+  },
+  {
+    "name": "ディンルー",
+    "basespeed": 45
+  },
+  {
+    "name": "イーユイ",
+    "basespeed": 100
+  },
+  {
+    "name": "トドロクツキ",
+    "basespeed": 119
+  },
+  {
+    "name": "テツノブジン",
+    "basespeed": 116
+  },
+  {
+    "name": "コライドン",
+    "basespeed": 135
+  },
+  {
+    "name": "ミライドン",
+    "basespeed": 135
+  },
+  {
+    "name": "ウネルミナモ",
+    "basespeed": 109
+  },
+  {
+    "name": "テツノイサハ",
+    "basespeed": 104
+  },
+  {
+    "name": "カミッチュ",
+    "basespeed": 40
+  },
+  {
+    "name": "チャデス",
+    "basespeed": 50
+  },
+  {
+    "name": "ヤバソチャ",
+    "basespeed": 70
+  },
+  {
+    "name": "イイネイヌ",
+    "basespeed": 80
+  },
+  {
+    "name": "マシマシラ",
+    "basespeed": 106
+  },
+  {
+    "name": "キチキギス",
+    "basespeed": 99
+  },
+  {
+    "name": "オーガポン\nみどりのめん",
+    "basespeed": 110
+  },
+  {
+    "name": "オーガポン\nいどのめん",
+    "basespeed": 110
+  },
+  {
+    "name": "オーガポン\nかまどのめん",
+    "basespeed": 110
+  },
+  {
+    "name": "オーガポン\nいしずえのめん",
+    "basespeed": 110
+  },
+  {
+    "name": "ブリジュラス",
+    "basespeed": 85
+  },
+  {
+    "name": "カミツオロチ",
+    "basespeed": 44
+  },
+  {
+    "name": "ウガツホムラ",
+    "basespeed": 91
+  },
+  {
+    "name": "タケルライコ",
+    "basespeed": 75
+  },
+  {
+    "name": "テツノイワオ",
+    "basespeed": 124
+  },
+  {
+    "name": "テツノカシラ",
+    "basespeed": 98
+  },
+  {
+    "name": "テラパゴス\nノーマルフォルム",
+    "basespeed": 60
+  },
+  {
+    "name": "テラパゴス\nテラスタルフォルム",
+    "basespeed": 85
+  },
+  {
+    "name": "テラパゴス\nステラフォルム",
+    "basespeed": 85
+  },
+  {
+    "name": "モモワロウ",
+    "basespeed": 88
+  }
+]
