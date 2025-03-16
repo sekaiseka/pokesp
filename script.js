@@ -1,61 +1,34 @@
 // JSONデータを格納
 let pokemonData = [];
 
-// GitHub Pages 用にJSONのURLを指定（USERNAME, REPOSITORY を適宜変更）
+// GitHub Pages の JSON の URL（USERNAME と REPOSITORY は適宜変更）
 const jsonURL = "https://sekaiseka.github.io/pokesp/pokemon_data.json";
 
-// JSONファイルの読み込み
+// JSONデータの取得
 fetch(jsonURL)
   .then(response => response.json())
-  .then(data => { pokemonData = data; })
+  .then(data => { 
+    pokemonData = data; 
+    console.log("JSONデータを取得しました:", pokemonData);
+  })
   .catch(err => console.error('JSON読み込みエラー:', err));
 
-// 状態変数（各ボタンのON/OFF状態）
-let enemyWeatherActive = false, enemyParalysisActive = false;
-let selfWeatherActive = false, scarfActive = false, selfParalysisActive = false;
-let enemyRank = 0, selfRank = 0;
-function toggleEnemyWeather(button) {
-  enemyWeatherActive = !enemyWeatherActive;
-  button.classList.toggle("active", enemyWeatherActive);
-  calculateSpeed();
-}
-
-function toggleEnemyParalysis(button) {
-  enemyParalysisActive = !enemyParalysisActive;
-  button.classList.toggle("active", enemyParalysisActive);
-  calculateSpeed();
-}
-
-function toggleSelfWeather(button) {
-  selfWeatherActive = !selfWeatherActive;
-  button.classList.toggle("active", selfWeatherActive);
-  calculateSpeed();
-}
-
-function toggleScarf(button) {
-  scarfActive = !scarfActive;
-  button.classList.toggle("active", scarfActive);
-  calculateSpeed();
-}
-
-function toggleSelfParalysis(button) {
-  selfParalysisActive = !selfParalysisActive;
-  button.classList.toggle("active", selfParalysisActive);
-  calculateSpeed();
-}
-
-
-// ひらがな→カタカナ変換（簡易版）
+// **ひらがな → カタカナ変換（簡易版）**
 const hiraToKana = str => str.replace(/[\u3041-\u3096]/g,
   match => String.fromCharCode(match.charCodeAt(0) + 96)
 );
 
-// **ポケモン名を正規化（改行を削除し、括弧の中身を結合）**
+// **ポケモン名を正規化**
 function normalizeName(name) {
-  return name.replace(/\n/g, "").replace(/[()]/g, "").trim();
+  return name
+    .replace(/\n/g, "")            // 改行を削除
+    .replace(/\(/g, "（")          // 半角カッコ → 全角カッコ
+    .replace(/\)/g, "）")          // 半角カッコ → 全角カッコ
+    .replace(/[（）]/g, "")       // 全角カッコを削除
+    .trim();                       // 前後の空白削除
 }
 
-// **検索候補表示**
+// **検索候補の表示**
 function showSuggestions() {
   let input = document.getElementById("enemyPokemonInput").value.trim();
   let suggestionBox = document.getElementById("enemySuggestionBox");
@@ -63,9 +36,11 @@ function showSuggestions() {
   if (!input) { calculateSpeed(); return; }
 
   let normalizedInput = normalizeName(hiraToKana(input));
+
+  // **検索候補を取得（正規化後の名前を比較）**
   let filtered = pokemonData.filter(p => normalizeName(p.name).includes(normalizedInput));
 
-  // **すべての一致候補を表示**
+  // **一致したポケモンをすべて表示**
   filtered.forEach(p => {
     let div = document.createElement("div");
     div.textContent = p.name;
@@ -80,38 +55,6 @@ function showSuggestions() {
   calculateSpeed();
 }
 
-// **ランク補正乗数（-6～+6）**
-function rankMultiplier(rank) {
-  if (rank > 0) return (2 + rank) / 2;
-  if (rank < 0) return 2 / (2 - rank);
-  return 1;
-}
-
-// **ランク調整**
-function adjustRank(target, change) {
-  if (target === "self") {
-    selfRank = Math.max(-6, Math.min(6, selfRank + change));
-    document.getElementById("selfRank").innerText = selfRank;
-  } else {
-    enemyRank = Math.max(-6, Math.min(6, enemyRank + change));
-    document.getElementById("enemyRank").innerText = enemyRank;
-  }
-  calculateSpeed();
-}
-
-// **各ボタンのON/OFF切替**
-function toggleButton(button, type) {
-  button.classList.toggle("active");
-  switch (type) {
-    case 'enemyWeather': enemyWeatherActive = !enemyWeatherActive; break;
-    case 'enemyParalysis': enemyParalysisActive = !enemyParalysisActive; break;
-    case 'selfWeather': selfWeatherActive = !selfWeatherActive; break;
-    case 'scarf': scarfActive = !scarfActive; break;
-    case 'selfParalysis': selfParalysisActive = !selfParalysisActive; break;
-  }
-  calculateSpeed();
-}
-
 // **計算処理**
 function calculateSpeed() {
   let enemyName = document.getElementById("enemyPokemonInput").value.trim();
@@ -119,17 +62,18 @@ function calculateSpeed() {
     document.getElementById("result").innerHTML = "";
     return;
   }
-  
+
   let normalizedEnemyName = normalizeName(hiraToKana(enemyName));
+
+  // **JSON内のポケモン名も正規化して検索**
   let enemyData = pokemonData.find(p => normalizeName(p.name) === normalizedEnemyName);
+
   if (!enemyData) {
     document.getElementById("result").innerHTML = "";
     return;
   }
 
   let baseStat = enemyData.basespeed + 52;
-  baseStat *= rankMultiplier(enemyRank);
-
   let enemyCondition = (enemyWeatherActive ? 2 : 1) * (enemyParalysisActive ? 0.5 : 1);
   let enemyEffective = baseStat * enemyCondition;
 
@@ -146,7 +90,6 @@ function calculateSpeed() {
   let selfComputed = null;
   if (selfInput !== "") {
     selfComputed = parseFloat(selfInput);
-    selfComputed *= rankMultiplier(selfRank);
     selfComputed *= (selfWeatherActive ? 2 : 1);
     selfComputed *= (scarfActive ? 1.5 : 1);
     selfComputed *= (selfParalysisActive ? 0.5 : 1);
