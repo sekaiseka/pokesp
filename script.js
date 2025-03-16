@@ -138,15 +138,15 @@ function showSuggestions() {
    baseStat *= 2 ;
  
    let enemyCondition = (enemyWeatherActive ? 2 : 1) * (enemyParalysisActive ? 0.5 : 1);
-   let enemyEffective = enemyCondition * rankMultiplier(enemyRank);
+   let enemyEffective = rankMultiplier(enemyRank);
  
    let enemyResults = {
-     "最速スカーフ": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.1 * 1.5 * enemyEffective),
-     "準速スカーフ": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.5 * enemyEffective),
-     "最速": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.1 * enemyEffective),
-     "準速": Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * enemyEffective),
-     "無振り": Math.floor(((baseStat + 31 + 0) * Level / 100 + 5) * enemyEffective),
-     "最遅": Math.floor(((baseStat + 0 + 0) * Level / 100 + 5) * enemyEffective)
+     "最速スカーフ": Math.floor(Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.1 * 1.5 * enemyEffective) * enemyCondition),
+     "準速スカーフ": Math.floor(Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.0 * 1.5 * enemyEffective) * enemyCondition),
+     "最速": Math.floor(Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * 1.1 * enemyEffective) * enemyCondition),
+     "準速": Math.floor(Math.floor(((baseStat + 31 + 52) * Level / 100 + 5) * enemyEffective) * enemyCondition),
+     "無振り": Math.floor(Math.floor(((baseStat + 31 + 0) * Level / 100 + 5) * enemyEffective) * enemyCondition),
+     "最遅": Math.floor(Math.floor(((baseStat + 0 + 0 ) * Level / 100 + 5) * enemyEffective) * enemyCondition)
    };
  
    let selfInput = document.getElementById("selfSpeedInput").value;
