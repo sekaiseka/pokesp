@@ -14,6 +14,36 @@ fetch(jsonURL)
 let enemyWeatherActive = false, enemyParalysisActive = false;
 let selfWeatherActive = false, scarfActive = false, selfParalysisActive = false;
 let enemyRank = 0, selfRank = 0;
+function toggleEnemyWeather(button) {
+  enemyWeatherActive = !enemyWeatherActive;
+  button.classList.toggle("active", enemyWeatherActive);
+  calculateSpeed();
+}
+
+function toggleEnemyParalysis(button) {
+  enemyParalysisActive = !enemyParalysisActive;
+  button.classList.toggle("active", enemyParalysisActive);
+  calculateSpeed();
+}
+
+function toggleSelfWeather(button) {
+  selfWeatherActive = !selfWeatherActive;
+  button.classList.toggle("active", selfWeatherActive);
+  calculateSpeed();
+}
+
+function toggleScarf(button) {
+  scarfActive = !scarfActive;
+  button.classList.toggle("active", scarfActive);
+  calculateSpeed();
+}
+
+function toggleSelfParalysis(button) {
+  selfParalysisActive = !selfParalysisActive;
+  button.classList.toggle("active", selfParalysisActive);
+  calculateSpeed();
+}
+
 
 // ひらがな→カタカナ変換（簡易版）
 const hiraToKana = str => str.replace(/[\u3041-\u3096]/g,
