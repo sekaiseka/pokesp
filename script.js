@@ -9,6 +9,11 @@
    .then(response => response.json())
    .then(data => { pokemonData = data; })
    .catch(err => console.error('JSON読み込みエラー:', err));
+
+ // **入力欄をタップしたときに文字を消す**
+ function clearInput(input) {
+   input.value = ""; // 入力欄の値を空にする
+}
  
  // 状態変数（各ボタンのON/OFF状態）
  let enemyWeatherActive = false, enemyParalysisActive = false;
