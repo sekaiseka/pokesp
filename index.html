@@ -112,7 +112,8 @@
     <!-- 相手側入力グループ -->  
     <div class="input-group">
       <button id="enemyWeatherButton" onclick="toggleEnemyWeather(this)">天候系</button>
-      <input type="text" id="enemyPokemonInput" placeholder="相手ポケモン名" oninput="showSuggestions(); calculateSpeed();">
+<input type="text" id="enemyPokemonInput" placeholder="相手ポケモン名" 
+       onfocus="clearInput(this)" oninput="showSuggestions()">
       <div class="suggestion-box" id="enemySuggestionBox"></div>
       <button id="enemyParalysisButton" onclick="toggleEnemyParalysis(this)">まひ</button>
       <div class="rank-controls">
