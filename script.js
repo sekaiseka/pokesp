@@ -53,10 +53,13 @@ function toHiragana(str) {
 }
 
 // ポケモン名の正規化：カタカナ・ひらがなを統一し、改行と括弧の中身を削除
+
 function normalizeName(name) {
   let hira = toHiragana(name);
-  return hira.replace(/\n/g, "").replace(/\(.*?\)/g, "").trim();
+  // 括弧を削除し、中の文字を残してつなげる
+  return hira.replace(/\n/g, "").replace(/[（）]/g, "").trim();
 }
+
 
 // 検索候補表示（修正版）
 function showSuggestions() {
